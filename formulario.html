@@ -10,8 +10,8 @@
 <body>
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
-          <label for="validationCustom01" class="form-label">Primer Nombre</label>
-          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <label for="validationCustom01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="Nombre1" value="" name="Name" required>
           <div class="valid-feedback">
             Looks good!
           </div>
@@ -29,34 +29,57 @@
             <span class="input-group-text" id="inputGroupPrepend">@</span>
             <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
             <div class="invalid-feedback">
-              Please choose a username.
+              Digite su nombre de Usuario
             </div>
           </div>
+
         </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        
         <div class="col-md-6">
           <label for="validationCustom03" class="form-label">Ciudad</label>
           <input type="text" class="form-control" id="validationCustom03" required>
           <div class="invalid-feedback">
-            Please provide a valid city.
+            Por favor Digite una Ciudad
           </div>
         </div>
         <div class="col-md-3">
           <label for="validationCustom04" class="form-label">Departamento</label>
           <select class="form-select" id="validationCustom04" required>
             <option selected disabled value="">Elegir...</option>
-            <option>...</option>
+            <option>Managua</option>
+            <option>Chinandega</option>
+            <option>León</option>
+            <option>Carazo</option>
+            <option>Masaya</option>
+            <option>Granada</option>
+            <option>Rivas</option>
+            <option>Esteli</option>
+            <option>Nueva Segovia</option>
+            <option>Jinotega</option>
+            <option>Madriz</option>
+            <option>Matagalpa</option>
+            <option>Boaco</option>
+            <option>Chontales</option>
+            <option>Rio San Juan</option>
+            <option>RACCS</option>
+            <option>RACCN</option>
+
           </select>
           <div class="invalid-feedback">
-            Please select a valid state.
+            Por favor seleccione un Departamento
           </div>
         </div>
-        <div class="col-md-3">
-          <label for="validationCustom05" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
-          <div class="invalid-feedback">
-            Please provide a valid zip.
-          </div>
-        </div>
+        
         <div class="col-12">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
